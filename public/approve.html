@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Redirecting to app...</title>
+    <script>
+      window.onload = function () {
+        const params = new URLSearchParams(window.location.search);
+        const pgToken = params.get('pg_token');
+
+        if (pgToken) {
+          // 예: howareyou://kakaopay/success?pg_token=abc123
+          window.location.href =
+            'howareyou://kakaopay/success?pg_token=' + pgToken;
+        } else {
+          // 토큰이 없으면 실패로 간주
+          window.location.href = 'howareyou://kakaopay/fail';
+        }
+      };
+    </script>
+  </head>
+  <body>
+    Redirecting to app...
+  </body>
+</html>
