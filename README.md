@@ -25,6 +25,12 @@ Flutter 프로젝트에서 **카카오페이 단건결제(single payment)**를 �
 
 ---
 
+## 파이어베이스 호스팅 명령어
+1. npm install -g firebase-tools
+2. firebase login
+3. firebase init hosting
+
+---
 ## 📌 구현 흐름 요약
 
 1. 결제 준비 API 호출 → 결제 URL 생성
