@@ -5,7 +5,7 @@ Flutter 프로젝트에서 **카카오페이 단건결제(single payment)**를 �
 ---
 
 ## 📺 YouTube 시연 영상  
-[👉 YouTube 링크](여기에_유튜브_URL_붙여넣기)
+[👉 YouTube 링크](https://youtu.be/g7348GhQ-wY)
 
 ---
 
@@ -56,7 +56,7 @@ Flutter 프로젝트에서 **카카오페이 단건결제(single payment)**를 �
 ## 🎥 YouTube Tutorial
 
 This code is part of my **KakaoPay Flutter Single Payment Integration** tutorial. Watch the step-by-step guide on my channel to understand how it works and see it in action:  
-👉 [Watch the Tutorial](https://www.youtube.com/@starbucks9651)
+👉 [Watch the Tutorial](https://youtu.be/g7348GhQ-wY)
 
 ---
 
